@@ -1,0 +1,65 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Flower form</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="info">
+			<div class="name">
+				<img src="me.jpg" alt="image of me"/>
+				<h2> Oliver S</h2>
+			</div>
+			<div class="address">
+				<h4> 615-437-0391 </h4>
+				<h4>1304 Mississippi St Suite 105 </h4>
+				<h4> San Francisco, CA 94110 </h4>
+			</div>
+			<div class="message">
+				<h4> "Been thinking about how hard you've been working and just wanted to say thankyou. "</h4>
+			</div>
+			<div class="delivery">
+				<h3> Deliver Today, <b> 2PM-3PM</b> </h3>
+				<h4 class="special"> <span class="plus"> + </span>Add special 	Delivery Instructions </h4>
+			</div>
+
+			<div class="price">
+				<h4> Madison: <span> $60 </span> </h4>
+				<h4> Tax: <span> $6.15 </span> </h4>
+				<h4> Total: <span class="total"> $66.15 </span></h4>
+			</div>
+	</div>
+</div>
+
+<!--<h4 class="payment-text"> Payment Details </h4>-->
+
+	<form  class="form">
+		<div class="cell credit">
+			<label> Credit Card Number </label>
+			<input type="search" name="creditcard" placeholder="4831-0948-9417-4341">
+		</div>
+		<hr/>
+		 <div class="cell date">
+			<label>Date</label>
+			 <input type="date" name="date">
+		 </div>
+		 <hr/>
+		 <div class="cell cvc">
+			 <label for="cvc">Cvc</label>
+			 <input type="text" name="cvc" placeholder="809">
+		 </div>
+		 <hr/>
+		<div class="cell zip">
+			<label for="postcode">Zip</label>
+			 <input type="number" name="postcode" placeholder="94100">
+		</div>
+		<div class="cell submit">
+			<div class="button"> Purchase </div>
+		</div>
+	</form>
+	
+</body>
+</html>
